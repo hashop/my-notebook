@@ -43,7 +43,7 @@ Inside the html tag, it should contain the other two major tags: head and body.
 <head>
 	<!-- Title contains the name of the browser tab. -->
 	<title>Browser tab name</title>
-	<!-- Defines the character set to be used. -->
+	<!-- Defines the character set to be used. Default is UTF-8. -->
 	<meta charset="UTF-8">
 	<!-- Links the stylesheet to the html page. 
 	Cascading Style Sheets are used to design the webpage. -->
@@ -86,6 +86,33 @@ Inside the html tag, it should contain the other two major tags: head and body.
 		using the height and width attributes. -->
 		<img src="resources/picture.jpeg" height="200" width="200">
 	</div> <!-- Closing div -->
+	<div>
+		<!-- Create a table -->
+		<table> 
+			<!-- Create heading for table using thead tag -->
+			<thead>
+				<!-- Create heading row of table using tr tag-->
+				<tr>
+					<!-- Create table headers using th tag-->
+					<th>First Heading</th>
+					<th>Second Heading</th>
+				</tr>
+			</thead>
+		    <!-- Create table body to contain the table information -->
+		    <tbody>
+				<!-- Create additional table rows using tr tag -->
+			    <tr>
+			    	<!-- Create table cells using td tag -->
+			        <td>Row 1, Col: 1</td> 
+			        <td>Row 1, Col: 2</td>
+			    </tr>
+			    <tr>
+			        <td>Row 2, Col: 1</td>
+			        <td>Row 2, Col: 2</td>
+			    </tr>
+		    </tbody>
+		</table>
+	</div>
 </body>
 </html>
 ```
@@ -95,9 +122,6 @@ TODO:
 <ul>
 	<li>hr</li>
 	<li>br</li>
-	<li>div</li>
-	<li>tables: thead, tbody, th, tr, td</li>
-	<li>images</li>
 	<li>hyperlinks a</li>
 	<li>span</li>
 	<li>INPUTS: text, radiobutton, checklist</li>
